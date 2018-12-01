@@ -3,26 +3,40 @@
 <head>
   <title>My Portfolio</title>
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <style>
+        body{
+          background-image:url(assets/images/houndstooth-pattern.png)
+        }
+        </style>
 </head>
 
 <header>
-<h1>Matt Marshburn</h1>
-<a href="index.html">About</a>
-<a href="portfolio.html">Portfolio</a>
-<a href="contact.html">Contact</a>
+        <style>
+                header{
+                  width:100%;
+                  background:white;
+                  margin-top:-15px;
+                  border-bottom: 5px solid #cccccc;
+                }
+        </style>
+<h1 class="bigtext">Matt Marshburn</h1>
+<a id="navlink" href="index.html">About</a>
+<a id="navlink" href="portfolio.html">Portfolio</a>
+<a id="navlink" href="contact.html">Contact</a>
 </header>
 
 <body>
     <h2>Portfolio</h2>
 
+<div class="projects">
     <ul>
-        <li><img src="assets/images/image1.jpg">Hangman</li>
-        <li><img src="assets/images/image2.png"> RPG Game</li>
-        <li><img src="assets/images/image3.png"> Trivia Game</li>
-        <li><img src="assets/images/image4.jpg"> Rutgers Info Widget</li>
-        <li><img src="assets/images/image5.jpg"> Rock Paper Scissors</li>
+        <li><img class="portfolioimage"src="assets/images/image1.jpg"><div class="portfoliotext">Hangman</div></li>
+        <li><img class="portfolioimage"src="assets/images/image2.png"><div class="portfoliotext">RPG Game</div></li>
+        <li><img class="portfolioimage"src="assets/images/image3.png"><div class="portfoliotext">Trivia Game</div></li>
+        <li><img class="portfolioimage"src="assets/images/image4.jpg"><div class="portfoliotext">Rutgers Info Widget</div></li>
+        <li><img class="portfolioimage"src="assets/images/image5.jpg"><div class="portfoliotext">Rock Paper Scissors</div></li>
     </ul>
-
+</div>
 </body>
 
 
